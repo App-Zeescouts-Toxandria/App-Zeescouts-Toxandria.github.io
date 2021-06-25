@@ -6,3 +6,8 @@ console.log(data)
 simpleSheet: true } )
 }
 window.addEventListener(‘DOMContentLoaded’, init)
+
+
+function test() {
+  console.log('hello world');
+};
