@@ -47,14 +47,7 @@
     <p><a href="main.html">More information...</a></p>
     
     <button type="button"
-    onclick="gapi.client.sheets.spreadsheets.values.get({
-  spreadsheetId: 1Gu100LkN-ocgaaiEfrsY9A94Q8cb0aZmzazoPE-Om2s,
-  range: A1
-}).then((response) => {
-  var result = response.result;
-  var numRows = result.values ? result.values.length : 0;
-  console.log(`${numRows} rows retrieved.`);
-});">
+    onclick="">
     Spreadsheet</button>
     
     
